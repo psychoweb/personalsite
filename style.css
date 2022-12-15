@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+body {
+    background-color: #fffbf5;
+    font-family: 'Courier Prime', serif;
+}
+
+.dictionary {
+    margin-left: 3em;
+    max-width: 32em;
+    text-indent: -2em;
+    padding-left: 3em;
+    word-spacing: -0.1em;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.title-name {
+    letter-spacing: 0.05em;
+    word-spacing: 0.1em;
+    font-family: 'Cormorant Garamond', serif;
+    /*  font-weight: normal; */
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    font-size: 3.5em;
+}
+
+.punctuation-dot {
+    color: #F11;
+    font-size: 0.9em;
+}
+
+.red {
+    color: #F11;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blurred {
+    filter: blur(0.2em);
+    opacity: 0.8;
+}
+
+a {}
+
+a:link,
+a:visited {
+    color: #F11;
+    text-decoration: none;
+    text-decoration-color: #000;
+    text-decoration-thickness: 2px;
+}
