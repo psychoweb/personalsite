@@ -3,10 +3,10 @@
 
 body {
     background-color: #fffbf5;
-    font-family: 'Courier Prime', serif;
 }
 
 .dictionary {
+    font-family: 'Courier Prime', serif;
     margin-left: 3em;
     max-width: 32em;
     text-indent: -2em;
