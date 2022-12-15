@@ -8,7 +8,7 @@ body {
 .dictionary {
     font-family: 'Courier Prime', serif;
     margin-left: 3em;
-    max-width: 32em;
+    width: 32em;
     text-indent: -2em;
     padding-left: 3em;
     word-spacing: -0.1em;
@@ -26,9 +26,6 @@ body {
     word-spacing: 0.1em;
     font-family: 'Cormorant Garamond', serif;
     /*  font-weight: normal; */
-    padding-bottom: 0em;
-    margin-bottom: 0em;
-    margin-top: 0em;
     font-size: 3.5em;
 }
 
@@ -48,6 +45,7 @@ body {
 .blurred {
     filter: blur(0.2em);
     opacity: 0.8;
+    display: block;
 }
 
 a {}
@@ -58,4 +56,10 @@ a:visited {
     text-decoration: none;
     text-decoration-color: #000;
     text-decoration-thickness: 2px;
+}
+
+@media screen and (max-width: 900px) {
+  .blurred {
+    display: none;
+  }
 }
