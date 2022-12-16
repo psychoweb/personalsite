@@ -14,10 +14,6 @@ body {
 
 .dictionary {
     font-family: 'Courier Prime', serif;
-    margin-left: 2em;
-    width: 32em;
-    text-indent: -1em;
-    padding-left: 2em;
 }
 
 .title-name {
@@ -43,10 +39,17 @@ body {
     font-weight: bold;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .blurred {
     filter: blur(0.2em);
     opacity: 0.8;
-    display: block;
+}
+
+.small-hidden {
+    display: none;
 }
 
 a {}
@@ -59,8 +62,15 @@ a:visited {
     text-decoration-thickness: 2px;
 }
 
-@media screen and (max-width: 900px) {
-  .blurred {
-    display: none;
+@media screen and (min-width: 900px) {
+  .small-hidden {
+    display: block;
+  }
+  
+  .dictionary {
+    margin-left: 2em;
+    width: 32em;
+    text-indent: -1em;
+    padding-left: 2em;
   }
 }
